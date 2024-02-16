@@ -1,0 +1,82 @@
+
+body{
+    padding: 0%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: #181818;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+#maincontainer{
+    display: grid;
+    
+}
+
+#primarycontainer{
+    place-self: center;
+    width: 500px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+#header{
+    color: #4d6aff;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#btntest{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 60px;
+    font-size: large;
+    background-color: #4d6aff;
+    border-radius: 8px;
+    border-style: none;
+    grid-row: 3;
+    grid-column: 1/ span 2;
+}
+#btntest:hover{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 60px;
+    font-size: large;
+    background-color: #2f3c79;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}
+.input-style{
+    max-width: 250px;
+    font-size: large;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    grid-row: 2;
+    color: white;
+    background-color: #242424;
+    outline: none;
+    border: none;
+}
+.input-style-label{
+    font-size: small;
+    grid-row: 1;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#tvoutput{
+    grid-column: 1/ span 2;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
